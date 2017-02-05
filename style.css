@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+
+body {
+    font-family: 'Roboto', sans-serif!important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-color: #38383b;
+    color: white;
+    color: #c3c3c3;
+}
+
+#dark-overlay {
+    height: 930px;
+    background: rgba(0, 0, 0, 0.29);
+    z-index: 9999;
+}
+
+#all {
+    margin: 0 300px;
+    margin-bottom: 5%;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+.navbar-default {
+    height: 930px;
+    background-image: url(imageBlur.jpg);
+   /*  -webkit-filter: blur(5px);
+     -moz-filter: blur(5px);
+       -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+          filter: blur(5px);
+    */
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 100;
+    -webkit-filter: url(other/filters.svg#grayscale);
+    -o-filter: url(other/filters.svg#grayscale);
+    filter: url(other/filters.svg#grayscale);
+    color: #fff;
+}
+
+.navbar {
+    height: inherit;
+    padding: 20%;
+}
+
+.navbar p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.navbar h1 {
+    letter-spacing: 7px;
+    font-weight: 20;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.posts {
+    width: 55%;
+    background-color: #2d2d31;
+    float: left;
+    border-radius: 0 0 3px 3px;
+}
+
+.posts h2, .posts h1, .posts span {
+    margin: 1%;
+}
+
+.posts h2 {
+    margin-left: 5%
+}
+
+.posts p {
+    margin-left: 2%;
+}
+
+.sidebar {
+    float: right;
+    margin-right: 10%;
+    width: 400px;
+    background-color: #2d2d31;
+    border-radius: 0 0 3px 3px;
+    height: 200px;
+}
+
+.sidebar p, .sidebar h2, .sidebar h3 {
+    margin: 1% 2%;
+}
+
+img {
+    margin: 0 6%
+}
+
+#page {
+    margin-top: 30px;
+    background-color: #2d2d31;
+    width: 55%;
+    float: left;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+}
+
+#page h3 {
+    font-size: 29px;
+    text-align: center;
+    margin: 1.5%;
+    color: #6d6d6d;
+}
+
+#footer {
+    float: left;
+    vertical-align: bottom;
+}

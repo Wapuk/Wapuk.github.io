@@ -1,0 +1,5 @@
+@media (max-height: 768px) {
+    .navbar-default, #dark-overlay {
+        height: 650px;
+    }
+}
